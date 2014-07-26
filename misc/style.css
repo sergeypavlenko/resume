@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro XThin';
+    src: url(fonts/PFDinTextCompPro-XThin.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro Medium';
+    src: url(fonts/PFDinTextCompPro-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro XThin';
+    src: url(fonts/PFDinTextCompPro-XThinItal.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro Light';
+    src: url(fonts/PFDinTextCompPro-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'PF Din Text Comp Pro XThin';
+}
+
+h1 {
+    font-size: 150px;
+}
+
+#works,
+#footer {
+    margin-top: 50px;
+}
+
+#works .row {
+    position: relative;
+}
+
+#works .row > div {
+    height: 289px;
+    margin-top: 50px;
+}
+
+.code {
+    font-size: 20px;
+    height: 250px;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.front {
+    width: 350px;
+}
+
+.info {
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'PF Din Text Comp Pro Light';
+}
+
+.info h2 {
+    margin-top: 0;
+    font-family: 'PF Din Text Comp Pro Medium';
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tags > .tag {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 2px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.tags > .tag:hover {
+    background-color: #428bca;
+    color: #ffffff;
+}
+
+#works .code img:hover {
+    border: 0;
+}
+
+#footer {
+    font-size: 30px;
+}
