@@ -30,10 +30,15 @@
 
 body {
     font-family: 'PF Din Text Comp Pro XThin';
+    font-size: 20px;
 }
 
 h1 {
     font-size: 150px;
+}
+
+h2.block-title {
+    border-bottom: 1px solid #dddddd;
 }
 
 #works,
@@ -45,13 +50,12 @@ h1 {
     position: relative;
 }
 
-#works .row > div {
+#works .row:not(:first-child) > div {
     height: 289px;
     margin-top: 50px;
 }
 
 .code {
-    font-size: 20px;
     height: 250px;
     border: 1px solid #dddddd;
     -webkit-border-radius: 4px;
@@ -64,8 +68,8 @@ h1 {
 }
 
 .info {
+    width: 350px;
     display: none;
-    font-size: 20px;
     padding: 10px;
     font-family: 'PF Din Text Comp Pro Light';
 }
@@ -97,6 +101,10 @@ h1 {
 
 #works .code img:hover {
     border: 0;
+}
+
+ul.publications {
+    margin-top: 20px;
 }
 
 #footer {
